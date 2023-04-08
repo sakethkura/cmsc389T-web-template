@@ -2,7 +2,14 @@ version: '3'
 
 services:
   nodejs:
-    #fill out the configuration here
+    build:
+        context: .
+        dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    image: website_image
+    container_name: node-web-app
+    restart: unless-stopped
     networks:
       - app-network
   
@@ -27,8 +34,7 @@ volumes:
     driver: local
     driver_opts:
       type: none
-      #fill out your absolute path to your folder here
-      device: /absolute/path/to/web/template/folder
+      device: /Users/sakethkura/Documents/CMSC389T/P5
       o: bind
 
 networks:
