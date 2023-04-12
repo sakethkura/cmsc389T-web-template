@@ -14,4 +14,5 @@ Rose quartz: #B2A3B5
 ## CSS
 .img -> where you can adjust image size
 
+Githug Pages website link: https://sakethkura.github.io/cmsc389T-web-template/
 TerpConnect website link: https://terpconnect.umd.edu/~skura/cmsc389T-web-template/index.html
