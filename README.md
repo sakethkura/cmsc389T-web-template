@@ -13,3 +13,5 @@ Rose quartz: #B2A3B5
 
 ## CSS
 .img -> where you can adjust image size
+
+TerpConnect website link: https://terpconnect.umd.edu/~skura/cmsc389T-web-template/index.html
